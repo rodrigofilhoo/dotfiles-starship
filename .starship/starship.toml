@@ -1,0 +1,229 @@
+add_newline = false
+
+right_format = """
+$aws\
+$golang\
+$java\
+$gradle\
+$kotlin\
+$kubernetes\
+$nodejs\
+"""
+
+[username]
+disabled = false
+show_always = true
+style_user = "bold #9370DB"  # MediumPurple
+style_root = "bold #FF69B4"  # HotPink
+format = "[╭─gengar]($style)@"
+
+[hostname]
+disabled = false
+ssh_only = false
+style = "bold #FF69B4"  # HotPink
+format = "[BOO 󰊠]($style) "
+trim_at = "-"
+
+[directory]
+disabled = false
+truncate_to_repo = true
+truncation_length = 0
+home_symbol = "~"
+format = "[$path](fg:#9370DB bold)[/](fg:#FF69B4 bold) "  # MediumPurple y HotPink
+
+[character]
+error_symbol = "[╰ 󱍿](fg:#9370DB dimmed bold)"  # MediumPurple
+success_symbol = "[╰ 󱍿](fg:#9370DB bold)"  # MediumPurple
+
+[kubernetes]
+symbol = '󱃾'
+style = 'fg:#FF69B4 bold'  # HotPink
+format = '[$symbol ($cluster in )$context \($namespace\)]($style) '
+disabled = false
+
+
+[gradle]
+style = 'fg:#9370DB bold'  # MediumPurple
+format = '[$symbol($version )]($style)'
+symbol = ' '
+
+
+[git_branch]
+symbol = " "
+style = 'fg:#FF69B4 bold'  # HotPink
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[git_status]
+conflicted = ' 🏳 '
+ahead = ' 🏎💨 '
+behind = ' 😰 '
+diverged = ' 😵 '
+up_to_date = ' ✓ '
+untracked = ' 🤷 ' 
+stashed = ' 📦 '
+modified = ' 📝 '
+staged = ' [++\($count\)](green) '
+renamed = ' 👅 '
+deleted = ' 🗑 '
+
+
+[golang]
+symbol = " "
+style = 'fg:#FF69B4 dimmed bold'  # HotPink
+format = '[${symbol}(${version} )]($style)'
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+format = '[$symbol$context]($style) '
+
+[docker_context]
+symbol = " "
+format = '[$symbol$context]($style) '
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+style = 'fg:#9370DB bold'  # MediumPurple
+format = '[${symbol}(${version} )]($style)'
+
+[julia]
+symbol = " "
+
+[kotlin]
+kotlin_binary = 'kotlin'
+symbol = ' '
+style = 'fg:#FF69B4 bold'  # HotPink
+format = '[$symbol($version )]($style)'
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = "󰍲 "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
